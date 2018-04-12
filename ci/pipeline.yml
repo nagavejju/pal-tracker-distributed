@@ -90,7 +90,7 @@ jobs:
       CF_USERNAME: {{cf-username}}
       CF_PASSWORD: {{cf-password}}
       CF_ORG: {{cf-org}}
-      CF_SPACE: space
+      CF_SPACE: sandbox
       MYSQL_IP: {{tracker-allocations-database-hostname}}
       DATABASE_NAME: {{tracker-allocations-database-name}}
       DATABASE_USERNAME: {{tracker-allocations-database-username}}
@@ -115,7 +115,7 @@ jobs:
       CF_USERNAME: {{cf-username}}
       CF_PASSWORD: {{cf-password}}
       CF_ORG: {{cf-org}}
-      CF_SPACE: space
+      CF_SPACE: sandbox
       MYSQL_IP: {{tracker-backlog-database-hostname}}
       DATABASE_NAME: {{tracker-backlog-database-name}}
       DATABASE_USERNAME: {{tracker-backlog-database-username}}
@@ -140,7 +140,7 @@ jobs:
       CF_USERNAME: {{cf-username}}
       CF_PASSWORD: {{cf-password}}
       CF_ORG: {{cf-org}}
-      CF_SPACE: space
+      CF_SPACE: sandbox
       MYSQL_IP: {{tracker-registration-database-hostname}}
       DATABASE_NAME: {{tracker-registration-database-name}}
       DATABASE_USERNAME: {{tracker-registration-database-username}}
@@ -165,7 +165,7 @@ jobs:
       CF_USERNAME: {{cf-username}}
       CF_PASSWORD: {{cf-password}}
       CF_ORG: {{cf-org}}
-      CF_SPACE: space
+      CF_SPACE: sandbox
       MYSQL_IP: {{tracker-timesheets-database-hostname}}
       DATABASE_NAME: {{tracker-timesheets-database-name}}
       DATABASE_USERNAME: {{tracker-timesheets-database-username}}
